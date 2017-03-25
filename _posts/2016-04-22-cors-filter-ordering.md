@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Spring Filter Ordering
+comments: true
 ---
 
 The internet is littered with examples of how to add [Cross Origin Resource Sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) (CORS) support to a Spring Boot application. Almost all of these examples use the `SimpleCORSFilter` which looks something like this:
 
-{% highlight java %}
+```java
 @Component
 public class SimpleCORSFilter implements Filter {
 
@@ -20,7 +21,7 @@ public class SimpleCORSFilter implements Filter {
    	public void init(FilterConfig filterConfig) {}
     public void destroy() {}
 }
-{% endhighlight %}
+```
 
 When working on an AngularJS project, I got stuck trying to determine why my requests were failing the CORS check but my filter was never being called.
 
@@ -28,11 +29,11 @@ After some investigation I found that Spring Security had its own filter that en
 
 As of Spring 2.5, fixing this issue is quite simple. Just add the `@Order` annotation to the filter like so:
 
-{% highlight java %}
+```java
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class SimpleCORSFilter implements Filter {
-{% endhighlight %}
+```
 
 The JavaDoc for `@Order` states:
 > The default value is Ordered.LOWEST_PRECEDENCE, indicating lowest priority (losing to any other specified order value).
