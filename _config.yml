@@ -26,4 +26,6 @@ facebook_username:    gdpotter
 github:
   repo:           https://github.com/gdpotter/gdpotter.github.io
 
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
