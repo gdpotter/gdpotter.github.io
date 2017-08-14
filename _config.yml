@@ -9,12 +9,11 @@ permalink:        pretty
 title:            Greg Potter
 tagline:          'Full Stack Java Developer'
 description:      'Full Stack Java Developer' #'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+url:              http://gdpotter.com
 baseurl:          /
 
 author:
   name:           'Greg Potter'
-  url:            https://twitter.com/mdo
 
 paginate:         5
 
@@ -25,6 +24,6 @@ linkedin_username:    gdpotter
 facebook_username:    gdpotter
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/gdpotter/gdpotter.github.io
 
 gems: [jekyll-paginate]
