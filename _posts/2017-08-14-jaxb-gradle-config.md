@@ -3,6 +3,7 @@ layout: post
 title: A Simple Gradle JAXB Configuration
 comments: true
 github: https://github.com/gdpotter/gradle-jaxb-example
+crosspost_to_medium: true
 ---
 Working with any XML schema is often a daunting task and when using Java it is common to use a library such as JAXB to turn that schema into Java classes and then marshal (or unmarshal) the XML using those classes. The [XJC](http://docs.oracle.com/javase/6/docs/technotes/tools/share/xjc.html) tool will convert XML schemas into the Java classes but unfortunately due to the age of the project, integrating with gradle is not clear. However, there is an Ant plugin that we can invoke from Gradle to make generating these classes easy.
 
