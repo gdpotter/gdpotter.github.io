@@ -3,6 +3,7 @@ layout: post
 title: Using Java 8 Time within JAXB with XJC
 comments: true
 github: https://github.com/gdpotter/gradle-jaxb-example
+crosspost_to_medium: true
 ---
 When we left off on our [Gradle JAXB project]({{ site.baseurl }}{% post_url 2017-08-14-jaxb-gradle-config %}), we were using a simple Gradle configuration to generate Java classes from an XML schema using JAXB and XJC. However, once you start to use the generated classes, you will notice something about date fields that might be difficult to use. Once again, we are using the [ISO 20022 schemas](https://www.iso20022.org/full_catalogue.page) in the sample.
 

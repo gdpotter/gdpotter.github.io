@@ -2,6 +2,7 @@
 layout: post
 title: Custom Jackson Config for Spring Boot
 comments: true
+crosspost_to_medium: true
 ---
 Spring Boot comes with some really great and usually sensible defaults for creating a Spring Application, but sometimes these defaults need to be tweaked slightly. I recently found myself needing to change some of the Jackson settings, but only for Web Requests. We wanted to use `snake_case` for the JSON fields in our request and response bodies.
 
