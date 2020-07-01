@@ -2,6 +2,7 @@
 layout: post
 title: The Complete Guide to React Hosting on AWS S3/CloudFront
 comments: true
+github: https://github.com/gdpotter/webpack-react-sample
 crosspost_to_medium: false
 ---
 Static/serverless website hosting is really cool. The economics and maintenance requirements are highly attractive (no paying for or managing servers) and the scalability is practically endless. Although there are many web hosts out there, I like hosting in S3 for the ease of maintenance, near-infinite scalability, and incredibly low cost. However, getting things set up _just right_ can be challenging.
