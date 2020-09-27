@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Greg Potter
 tagline:          'Full Stack Java Developer'
-description:      'Full Stack Java Developer' #'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Full Stack Java Developer'
 url:              https://gdpotter.com
 
 author:
@@ -20,7 +20,6 @@ paginate:         5
 version:          1.0.0
 github_username:      gdpotter
 linkedin_username:    gdpotter
-facebook_username:    gdpotter
 
 github:
   repo:           https://github.com/gdpotter/gdpotter.github.io
